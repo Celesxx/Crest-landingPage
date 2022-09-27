@@ -1,0 +1,65 @@
+@media only screen and (max-width: 660px) 
+{
+    .p2 { justify-content: space-evenly;}
+    .badges-head { width: 100%; }
+    .badges-title { font-size: 30px; }
+    .badges-desc { font-size: 16px}
+    .badges-card 
+    { 
+        height: 40%;
+        width: 40%;
+        flex: none;
+        gap: 0;
+    }
+    .badges-head-core { height: 15%; }
+    .badges-cards-core
+    {
+        flex-direction: row;
+        width: 88%;
+        align-items: center;
+        gap: 2em;
+        flex-wrap: wrap;
+    }
+    .badges-card-title 
+    { 
+        font-size: 20px;
+        order: 2;
+    }
+    .badges-card-desc
+    {
+        font-size: 16px;
+        width: 100%;
+        order: 3;
+    }
+    .badges-middle { transform: translatey(0) }
+    .badges-video { height: 60%; }
+}
+
+
+@media only screen and (max-width: 1250px) and (min-width: 661px) 
+{
+    .badges-head { width: 60%; }
+    .badges-title { font-size: 40px; }
+    .badges-card-title { font-size: 30px; }
+    .badges-card-desc
+    {
+        font-size: 16px;
+        width: 65%;
+    }
+    .badges-video { height: 30%; }
+    
+}
+
+@media only screen and (max-width: 2560px) and (min-width: 1921px)
+{
+    .badges-desc 
+    { 
+        width: 60%;
+        font-size: 24px;
+    }
+    .badges-card-desc { width: 40%; }
+    .badges-video
+    {
+        height: 50%;
+    }
+}

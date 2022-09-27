@@ -1,0 +1,30 @@
+@media only screen and (max-width: 660px) 
+{
+    .social-content-head { width: 90%; }
+    .social-title { font-size: 30px; }
+    .social-desc 
+    { 
+        font-size: 18px;
+        width: 100%;
+    }
+    .social-content-link { width: 90%; }
+    .social-img { height: 20%; }
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 661px) 
+{
+    .social-content-head { width: 60%; }
+    .social-title { font-size: 30px; }
+    .social-desc 
+    { 
+        font-size: 18px;
+        width: 100%;
+    }
+    .social-content-link { width: 80%; }
+    .social-img { height: 30%; }
+}
+
+@media only screen and (max-width: 2560px) and (min-width: 1921px)
+{
+    
+}

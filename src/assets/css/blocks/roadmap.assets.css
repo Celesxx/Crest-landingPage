@@ -1,0 +1,67 @@
+.roadmap-core
+{
+    justify-content: space-evenly;
+}
+
+.roadmap-head-core
+{
+    height: 15%;
+    width: 40%;
+    gap: 25px;
+    align-items: center;
+}
+
+.roadmap-title
+{
+    font-size: 40px;
+    font-weight: 900;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: "inter-Bold";
+    text-align: center;
+}
+
+.roadmap-desc
+{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 900;
+    color: rgba(200, 200, 200, 0.8);
+    text-align: center;
+}
+
+.roadmap-content-core
+{
+    height: 70%;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    gap: 25px
+}
+
+/* .roadmap-content-core > * {flex: 1;} */
+
+.roadmap-content
+{
+    width: 70%;
+}
+
+.roadmap-content-title
+{
+    font-size: 20px;
+    font-weight: 900;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: "inter-Bold";
+    text-align: start;
+}
+
+.roadmap-content-desc
+{
+    margin: 0;
+    width: 90%;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: start;
+    color: rgba(200, 200, 200, 0.8);
+}

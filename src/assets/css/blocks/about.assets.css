@@ -1,0 +1,47 @@
+.about-card-core
+{
+    height: 30%;
+    width: 90%;
+    justify-content: center;
+}
+
+.about-card-head
+{
+    height: 100%;
+    width: 40%;
+    justify-content: center;
+}
+
+.about-card-title
+{
+    font-size: 30px;
+    font-weight: 900;
+    text-align: start;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: "inter-Bold";
+}
+
+.about-card-desc
+{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: start;
+    color: rgba(200, 200, 200, 0.8);
+}
+
+.about-card-img
+{
+    height: 100%;
+    width: 30%;
+}
+
+.card-img
+{
+    height: 40%;
+    width: 40%;
+    object-fit: contain;
+}
+
+.about-end{ text-align: end !important;}

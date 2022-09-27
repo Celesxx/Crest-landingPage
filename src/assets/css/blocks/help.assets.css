@@ -1,0 +1,120 @@
+.help-head-core
+{
+    height: 20%;
+    width: 30%;
+    gap: 25px;
+}
+
+.help-title
+{
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: "inter-Bold";
+    text-align: center;
+}
+
+.help-desc
+{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: start;
+    color: rgba(200, 200, 200, 0.8);
+    text-align: center;
+}
+
+.help-content-core
+{
+    height: 80%;
+    width: 60%;
+}
+
+.help-content-core
+{
+    height: 70%;
+    width: 100%;
+}
+
+.help-content
+{
+    width: 100%;
+    height: 18%;
+}
+
+.help-content-title
+{
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    font-family: "inter-Bold";
+}
+
+.help-title-left { margin-left: 25px;}
+.help-title-right { margin-right: 25px;}
+
+.help-content-bullet
+{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 0;
+}
+
+.bullet-p1 { background: linear-gradient(120deg, rgb(108, 216, 252), rgb(63, 232, 207)) }
+.bullet-p2 { background: rgb(108, 216, 252) }
+.bullet-p3 { background: rgb(60, 163, 253) }
+.bullet-p4 { background: rgb(55, 85, 252) }
+
+.help-content-border
+{
+    height: 100%;
+    width: 25%;
+    align-items: flex-end;
+}
+
+.help-content-border-p1
+{
+    height: 50%;
+    width: 83%;
+    border-radius: 0 24px 0 0;
+    
+    background: transparent !important;
+    border: 0;
+    border-top: 5px solid rgb(63, 232, 207);
+    border-right: 5px solid rgb(63, 232, 207);
+    box-shadow:3px -3px 5px -5px white;
+}
+
+.help-content-border-p2
+{
+    height: 50%;
+    width: 64%;
+    border-top: 5px solid rgb(108, 216, 252);
+    border-left: 5px solid rgb(108, 216, 252);
+    border-radius: 24px 0 0 0;
+    box-shadow:-3px -3px 5px -5px white;
+}
+
+.help-content-border-p3
+{
+    height: 50%;
+    width: 75%;
+    border-top: 5px solid rgb(60, 163, 253);
+    border-right: 5px solid rgb(60, 163, 253);
+    border-radius: 0 24px 0 0;
+    box-shadow:3px -3px 5px -5px white;
+}
+
+.help-content-border-p4
+{
+    height: 50%;
+    width: 20%;
+    border-top: 5px solid rgb(55, 85, 252);
+    border-left: 5px solid rgb(55, 85, 252);
+    border-radius: 24px 0 0 0;
+    box-shadow:-3px -3px 5px -5px white;
+}

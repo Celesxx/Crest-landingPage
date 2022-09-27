@@ -1,0 +1,170 @@
+
+.home-body 
+{
+    position: relative;
+    height: 90%;
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* overflow-x: hidden; */
+    overflow-x: clip;
+}
+
+.menu-toggle
+{
+  overflow: hidden;
+}
+
+.home-body-base
+{
+  height: 60%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-base-core
+{
+    height: 50%;
+    width: 50%;
+    z-index: 10;
+} 
+
+.home-logo-core
+{
+    height: 10%;
+    width: 80%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.home-title-core
+{
+    font-family: "inter-Bold";
+    height: 60%;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.home-logo
+{
+    height: 100%;
+    width: auto;
+}
+
+.home-title
+{
+    margin: 0;
+    height: auto;
+    width: 100%;
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.home-logo-icon
+{
+    height: 50%;
+    width: 30%;
+}
+
+.swap-video
+{
+    height: 140%;
+    width: 80%;
+    object-fit: cover;
+}
+
+.home-ellipse
+{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0; 
+  z-index: 2;
+  overflow: hidden;
+}
+
+.ellipse
+{
+  border: 1px solid rgba(125, 125, 125, 0.25);
+  border-radius: 50%;
+  transform: rotate(14.21deg);
+  margin-right: 8%;
+  margin-bottom: 5%;
+}
+
+.l1
+{
+  height: 50%;
+  width: 60%;
+}
+
+.l2
+{
+  height: 70%;
+  width: 80%;
+}
+
+.l3
+{
+  height: 90%;
+  width: 100%;
+}
+
+
+.home-sphere
+{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0; 
+  right: 0;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.sphere-img
+{
+  height: 50%;
+  width: 50%;
+}
+
+.home-scroll-core
+{
+  height: 10%;
+  width: 100%;
+}
+
+.home-scroll
+{
+  height: 100%;
+  width: 20%;
+
+}
+
+.home-scroll-button
+{
+  position: relative;
+  z-index: 102;
+  height: 50px;
+  width: 50px;
+  color: white;
+  text-decoration: none;
+  border: 3px solid white;
+  border-radius: 50%;
+  -webkit-animation: slide-top 2s cubic-bezier(0.950, 0.050, 0.795, 0.035) infinite alternate-reverse ;
+	animation: slide-top 2s cubic-bezier(0.950, 0.050, 0.795, 0.035) infinite alternate-reverse ;
+}
+
+.home-scroll-arrow
+{
+  position: relative;
+  z-index: 101;
+  height: 70%;
+  width: 70%;
+  object-fit: cover;
+}

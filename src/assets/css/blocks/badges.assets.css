@@ -1,0 +1,81 @@
+.badges-head-core
+{
+    height: 20%;
+    width: 100%;
+}
+
+.badges-head
+{
+    height: 100%;
+    width: 40%;
+    gap: 30px;
+}
+
+.badges-title
+{
+    margin: 0;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    font-family: "inter-Bold";
+}
+
+.badges-desc
+{
+    margin: 0;
+    width: 80%;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color: rgba(200, 200, 200, 0.8)
+}
+
+.badges-cards-core
+{
+    height: 65%;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.badges-cards-core > * { flex: 1; }
+
+.badges-card
+{
+    height: 100%;
+    gap: 20px
+}
+
+.badges-card-title
+{
+    margin: 0;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.badges-card-desc
+{
+    width: 60%;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(200, 200, 200, 0.8)
+}
+
+.badges-video
+{
+    position: relative;
+    z-index: 5;
+    height: 40%;
+    width: auto;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+
+.badges-middle
+{
+    transform: translatey(-10%);
+}
