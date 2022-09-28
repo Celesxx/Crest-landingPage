@@ -18,7 +18,7 @@ class Roadmap extends React.Component
           
             <div className="team-head-core flex column center">
                 <h1 className="team-title">Our team !</h1>
-                <p className="team-desc">All the Core Team members of Crest We are a group of 5 hard workers that complement each other in all the skills that make a protocol be successful</p>
+                <p className="team-desc">This is all the Core Team members of Crest, a group of 5 hard workers that complement each other in all the skills that make a protocol be successful</p>
             </div>
 
             <div className="team-content-core flex row">

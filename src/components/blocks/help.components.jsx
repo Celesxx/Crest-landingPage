@@ -12,14 +12,16 @@ class Help extends React.Component
         <div className="home flex column center">
           
             <div className="help-head-core flex column center">
-                <h1 className="help-title">How to ?</h1>
-                <p className="help-desc">A short schema to explain the differents steps to get and buy your first badges !</p>
+                <h1 className="help-title">How to play</h1>
+                <p className="help-desc">Having trouble getting started on your new adventure? Don't worry, everything is fine! Here's a little diagram that should teach you the basics</p>
             </div>
 
             <div className="help-content-core flex column center">
 
                 <div className="help-content flex row center">
-                    <h2 className="help-content-title help-title-right">Connect Wallet</h2>
+                    <div className="help-content-title-core flex help-title-right">
+                        <h2 className="help-content-title flex help-border-p1 row center">Launch dApp</h2>
+                    </div>
                     <div className="help-content-bullet bullet-p1"></div>
                     <div className="help-content-border flex row left">
                         <div className="help-content-border-p1"> </div>
@@ -31,11 +33,15 @@ class Help extends React.Component
                         <div className="help-content-border-p2"> </div>
                     </div>
                     <div className="help-content-bullet bullet-p2"></div>
-                    <h2 className="help-content-title help-title-left">{`Swap $USDC -> $CREST`}</h2>
+                    <div className="help-content-title-core flex help-title-left">
+                        <h2 className="help-content-title flex help-border-p2 row center">Connect Wallet</h2>
+                    </div>
                 </div>
 
                 <div className="help-content flex row center">
-                    <h2 className="help-content-title help-title-right">Buy your badges</h2>
+                    <div className="help-content-title-core flex help-title-right">
+                        <h2 className="help-content-title flex help-border-p3 row center">{`Swap $USDC -> $CREST`}</h2>
+                    </div>
                     <div className="help-content-bullet bullet-p3"></div>
                     <div className="help-content-border flex row left">
                         <div className="help-content-border-p3"> </div>
@@ -47,11 +53,15 @@ class Help extends React.Component
                         <div className="help-content-border-p4"> </div>
                     </div>
                     <div className="help-content-bullet bullet-p4"></div>
-                    <h2 className="help-content-title help-title-left">Buy your badges</h2>
+                    <div className="help-content-title-core flex help-title-left">
+                        <h2 className="help-content-title flex help-border-p4 row center">Buy your badges</h2>
+                    </div>
                 </div>
 
-                <div className="help-content-p1">
-                    <h2 className="help-content-title">Collect your $CREST</h2>
+                <div className="help-content flex center">
+                    <div className="help-content-title-core help-content-title-core-end flex">
+                        <h2 className="help-content-title flex help-border-p5 row center">Collect your $CREST</h2>
+                    </div>
                 </div>
 
             </div>

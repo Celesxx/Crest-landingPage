@@ -29,24 +29,26 @@ class Cards extends React.Component
     {
         const isMobile = this.state.width <= 660;
         return(
-            <div className="home flex column center p2" id="badges">
+            <div className="home home-badges flex column center p2" id="badges">
                 
                 <div className="badges-head-core flex row center">
                     <div className="badges-head flex column center">
                         <h1 className="badges-title">Our badges</h1>
-                        <p className="badges-desc">Description Description Description Description Description Description Description </p>
+                        <p className="badges-desc">Discover the intense brilliance hidden in these crystals that even the darkness cannot hide, allowing to transcend to a higher level its possessor</p>
                         </div>
                 </div>
 
                 <div className="badges-cards-core flex row">
 
+
                     <div className="badges-card flex column center">
-                        <h1 className="badges-card-title">Amber</h1>
-                        <p className="badges-card-desc">A stone containing the light of a dying sun</p>
+                        <h1 className="badges-card-title">Amethyst</h1>
+                        <p className="badges-card-desc">A stone filled with one of the four primordial elements</p>
                         <video className="badges-video" autoPlay muted loop>
-                            <source src={Amber} type="video/mp4" />
+                            <source src={Amethyst} type="video/mp4" />
                         </video>
-                    </div>  
+                    </div>
+
 
                     <div className="badges-card flex column center badges-middle">
                         <h1 className="badges-card-title">Ruby</h1>
@@ -56,13 +58,15 @@ class Cards extends React.Component
                         </video>
                     </div>
 
+
                     <div className="badges-card flex column center">
-                        <h1 className="badges-card-title">Amethyst</h1>
-                        <p className="badges-card-desc">A stone filled with one of the four primordial elements</p>
+                        <h1 className="badges-card-title">Amber</h1>
+                        <p className="badges-card-desc">A stone containing the light of a dying sun</p>
                         <video className="badges-video" autoPlay muted loop>
-                            <source src={Amethyst} type="video/mp4" />
+                            <source src={Amber} type="video/mp4" />
                         </video>
-                    </div>
+                    </div>  
+                    
 
                 </div>
 

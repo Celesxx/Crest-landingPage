@@ -5,6 +5,7 @@
     .roadmap-title { font-size: 25px; }
     .roadmap-desc { font-size: 16px; }
     .roadmap-content { width: 80%; }
+    .roadmap-content-core { height: 60%;}
     .roadmap-content-title 
     { 
         font-size: 20px;

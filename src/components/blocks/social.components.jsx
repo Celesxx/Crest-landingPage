@@ -16,7 +16,7 @@ class Social extends React.Component
           
             <div className="social-content-head flex column center">
                 <h1 className="social-title">Socials</h1>
-                <p className="social-desc">Description Description Description Description Description Description</p>
+                <p className="social-desc">To finish, here are the different ways to join us so don't waste another minute and join the CREST family now!</p>
             </div>
 
             <div className="social-content-link flex row center">

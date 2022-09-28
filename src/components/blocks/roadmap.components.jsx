@@ -13,35 +13,26 @@ class Roadmap extends React.Component
           
             <div className="roadmap-head-core flex column center">
                 <h1 className="roadmap-title">{`Roadmap & our vision`}</h1>
-                <p className="roadmap-desc">Here is a list of goals that we would like to accomplish, they represent the direction we want to follow</p>
+                <p className="roadmap-desc">Here is a list of improvements we are looking on non stop</p>
             </div>
 
             <div className="roadmap-content-core flex column center">
 
                 <div className="roadmap-content flex column">
                     <h2 className="roadmap-content-title">Lore developpement</h2>
-                    <p className="roadmap-content-desc">Here is a list of goals that we would like to <span className="text-pink">accomplish</span>, they represent the direction we want to follow</p>
+                    <p className="roadmap-content-desc">We want to create a <span className="text-pink">real story</span> around our crystals to make them <span className="text-pink">truly unique</span> ! A story that we will develop little by little with our weekly updates and all the features we will work on in the future</p>
                 </div>
 
                 <div className="roadmap-content flex column">
                     <h2 className="roadmap-content-title">Feature</h2>
-                    <p className="roadmap-content-desc">Here is a <span className="text-pink">list</span> of goals that we would like to accomplish, they represent the direction we want to follow</p>
+                    <p className="roadmap-content-desc">Innovate every day by developing new <span className="text-pink">exclusive aspects</span> in the world of DeFi thanks to our future updates that will arrive periodically and thus make your experience the most unique possible</p>
                 </div>
 
                 <div className="roadmap-content flex column">
                     <h2 className="roadmap-content-title">Community</h2>
-                    <p className="roadmap-content-desc">Here is a list of goals that <span className="text-pink">we would like</span> to accomplish, they represent the direction we want to follow</p>
+                    <p className="roadmap-content-desc">We want to develop the community in an <span className="text-pink">authentic and original</span> way and make it the main factor of success of the project, that's why we will always listen to you</p>
                 </div>
 
-                <div className="roadmap-content flex column">
-                    <h2 className="roadmap-content-title">MultiChain Dex</h2>
-                    <p className="roadmap-content-desc">Here is a list of <span className="text-pink">goals</span> that we would like to accomplish, they represent the direction we want to follow</p>
-                </div>
-
-                <div className="roadmap-content flex column">
-                    <h2 className="roadmap-content-title">Crest Game</h2>
-                    <p className="roadmap-content-desc">Here is a list of goals that we would like to accomplish, they represent the <span className="text-pink">direction</span> we want to follow</p>
-                </div>
             </div>
 
         </div>

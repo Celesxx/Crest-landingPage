@@ -15,9 +15,9 @@ class About extends React.Component
         <div className="home home-about flex column center">
           
           <div className="about-card-core flex row">
-            <div className="about-card-head flex column">
+            <div className="about-card-head about-card-head-start flex column">
                 <h1 className="about-card-title">Real Yield</h1>
-                <p className="about-card-desc">REAL YIELD Being a Real Yield protocol can guarantee everyone's benefits. That's why we worked on a realistic plan to achieve our goals. The following mechanics will be available from day one.</p>
+                <p className="about-card-desc">Develop our secure investment strategy to guarantee yours so that you can generate more revenue than emissions and thus generate profits.</p>
             </div>
             <div className="about-card-img flex row center">
                 <img className="card-img" src={RealYield} alt={RealYield}></img>
@@ -28,16 +28,16 @@ class About extends React.Component
             <div className="about-card-img flex row center">
                 <img className="card-img" src={Liquidity} alt={Liquidity}></img>
             </div>
-            <div className="about-card-head flex column">
+            <div className="about-card-head about-card-head-end flex column">
                 <h1 className="about-card-title about-end">Liquidity Manager</h1>
-                <p className="about-card-desc about-end">LIQUIDITY MANAGER A Liquidity Manager is a must-have for sustainability, that's why we implemented it in our protocol.</p>
+                <p className="about-card-desc about-end">Manage your tokens with total control to allow you to establish the best strategy and obtain a safe stability throughout your adventure.</p>
             </div>
           </div>
 
           <div className="about-card-core flex row">
-            <div className="about-card-head flex column">
+            <div className="about-card-head about-card-head-start flex column">
                 <h1 className="about-card-title">Burn Mechanism</h1>
-                <p className="about-card-desc">BURN MECHANISM We implemented burn mechanisms to increase $CREST scarcity in the long run and here is how it works.</p>
+                <p className="about-card-desc">The burn mechanism will push the economic model into a long-term deflationary path to increase the scarcity of the $CREST token and thus ensure long-term stability</p>
             </div>
             <div className="about-card-img flex row center">
                 <img className="card-img" src={Burn} alt={Burn}></img>

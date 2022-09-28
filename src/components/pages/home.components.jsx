@@ -5,7 +5,7 @@ import 'assets/css/pages/home.assets.css'
 import 'assets/css/blocks/mobile/homeMobile.assets.css'
 import React from "react"
 import { Link } from "react-router-dom"
-import Navbar from "components/blocks/navbar.block.jsx"
+import Navbar from "components/blocks/navbar.components.jsx"
 import NavbarMobile from "components/blocks/mobile/navbarMobile.components.jsx"
 import Badges from "components/blocks/badges.components.jsx"
 import About from "components/blocks/about.components.jsx"

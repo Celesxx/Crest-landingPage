@@ -13,10 +13,12 @@
     }
     .about-card-head 
     { 
-        width: 90%; 
-        gap: 20px;
+        height: 50%;
+        width: 90%;
+        gap: 5px;
         order: 2;
         justify-content: center;
+        align-items: center;
     }
 
     .about-card-title 
@@ -30,8 +32,8 @@
         text-align: center !important;
     }
 
-    .about-card-img { height: 20%; }
-    .card-img { height: 100%; }
+    .about-card-img { height: 50%; }
+    .card-img { height: 100%; width: 100%; }
 }
 
 @media only screen and (max-width: 2560px) and (min-width: 1921px)

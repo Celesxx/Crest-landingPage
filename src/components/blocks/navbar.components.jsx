@@ -42,7 +42,7 @@ class Navbar extends React.Component
 
             <div className="navbar-button flex row">
               <div className="navbar-button-core flex row">
-                <button className="button dapp-button flex row center">Launch Dapp</button>
+                <button className="button dapp-button flex row center">Launch dApp</button>
               </div>
             </div>
 

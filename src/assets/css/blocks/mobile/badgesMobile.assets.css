@@ -18,7 +18,7 @@
         width: 88%;
         align-items: center;
         gap: 2em;
-        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
     }
     .badges-card-title 
     { 
