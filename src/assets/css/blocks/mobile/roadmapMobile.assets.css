@@ -5,7 +5,11 @@
     .roadmap-title { font-size: 25px; }
     .roadmap-desc { font-size: 16px; }
     .roadmap-content { width: 80%; }
-    .roadmap-content-core { height: 60%;}
+    .roadmap-content-core 
+    { 
+        height: 60%;
+        justify-content: space-evenly;
+    }
     .roadmap-content-title 
     { 
         font-size: 20px;
@@ -18,21 +22,25 @@
         width: 100%;
         text-align: center;
     }
+    .roadmap-badges-grey { width: 50%;}
+    .roadmap-badges-img { object-fit: cover;}
 }
 
 @media only screen and (max-width: 1250px) and (min-width: 661px) 
 {
-    .roadmap-core { justify-content: center;}
+    .roadmap-core { justify-content: space-around;}
     .roadmap-head-core{ width: 90%; }
     .roadmap-title { font-size: 30px; }
     .roadmap-desc { font-size: 18px; }
-    .roadmap-content { width: 80%; }
+    .roadmap-content { width: 100%; }
     .roadmap-content-title { font-size: 20px}
     .roadmap-content-desc 
     { 
         font-size: 16px;
         width: 100%;
     }
+    .about-badges-grey { width: 60%;}
+    .about-badges-img { object-fit: cover;}
     
 }
 

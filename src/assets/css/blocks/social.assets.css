@@ -19,7 +19,7 @@
     text-transform: uppercase;
     font-family: "inter-Bold";
     text-align: center;
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, .4), -2px -2px 4px rgba(255, 255, 255, .4);
+    
 }
 
 .social-desc
@@ -30,7 +30,7 @@
     color: rgba(200, 200, 200, 0.8);
     text-align: center;
     width: 80%;
-    text-shadow: 1px 1px 2px rgba(255, 255, 255, .4), -1px -1px 2px rgba(255, 255, 255, .4);
+    
 }
 
 .social-content-link

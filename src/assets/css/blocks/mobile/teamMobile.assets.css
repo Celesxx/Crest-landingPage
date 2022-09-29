@@ -21,6 +21,9 @@
         height: 80px;
         width: 80px;
     }
+
+    .team-badges-grey { width: 50%;}
+    .team-badges-img { object-fit: cover;}
 }
 
 @media only screen and (max-width: 1250px) and (min-width: 661px)
@@ -36,6 +39,8 @@
         height: 110px;
         width: 110px;
     }
+    .team-badges-grey { width: 60%;}
+    .team-badges-img { object-fit: cover;}
 }
 
 

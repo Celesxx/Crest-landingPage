@@ -37,6 +37,7 @@
     width: 70%;
     justify-content: flex-start;
     align-items: center;
+    padding-left: 1em;
 }
 
 .home-title-core
@@ -63,7 +64,7 @@
     font-size: 60px;
     font-weight: 900;
     text-transform: uppercase;
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, .4), -2px -2px 4px rgba(255, 255, 255, .4);
+    
 }
 
 .home-logo-icon

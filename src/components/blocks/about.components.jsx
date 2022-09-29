@@ -6,7 +6,7 @@ import React from "react";
 import RealYield from "assets/img/real-yield.png"
 import Burn from "assets/img/burn.png"
 import Liquidity from "assets/img/liquidity.png"
-
+import AmberGrey from "assets/img/amber-grey.png"
 class About extends React.Component 
 {
   render()
@@ -44,7 +44,9 @@ class About extends React.Component
             </div>
           </div>
 
-          
+          <div className="about-badges-grey">
+            <img className="about-badges-img" src={AmberGrey} alt={AmberGrey} />  
+          </div>          
 
         </div>
       );

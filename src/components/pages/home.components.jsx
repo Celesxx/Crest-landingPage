@@ -57,7 +57,7 @@ class Index extends React.Component
               </div>
 
               <div className="home-logo-icon flex row center">
-                <video className="swap-video" autoPlay muted loop>
+                <video playsinline className="swap-video" autoPlay muted loop>
                   <source src={Logo} type="video/mp4" />
                 </video>
               </div>

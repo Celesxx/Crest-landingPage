@@ -20,22 +20,22 @@ class Navbar extends React.Component
 
             <div className="navbar-link flex row">
               <div className="navbar-link flex column">
-                  <Link to="/home" className="link"><p className="link-title">Home</p></Link>
+                  <a href="#home" className="link"><p className="link-title">Home</p></a>
                   <div className="link-bar"></div>
               </div>
 
               <div className="navbar-link flex column">
-                  <Link to="/home" className="link"><p className="link-title">Doc</p></Link>
+                  <a href="https://medium.com/@playCrest" className="link"><p className="link-title">Doc</p></a>
                   <div className="link-bar"></div>
               </div>
 
               <div className="navbar-link flex column">
-                  <Link to="/home" className="link"><p className="link-title">Charts</p></Link>
+                  <a href="" className="link"><p className="link-title">Charts</p></a>
                   <div className="link-bar"></div>
               </div>
 
               <div className="navbar-link flex column">
-                  <Link to="/home" className="link"><p className="link-title">Community</p></Link>
+                  <a href="https://discord.com/invite/mUHGNqN8Vj" className="link"><p className="link-title">Community</p></a>
                   <div className="link-bar"></div>
               </div>
             </div>

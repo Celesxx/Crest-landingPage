@@ -1,6 +1,7 @@
 .roadmap-core
 {
     justify-content: space-evenly;
+    overflow: initial;
 }
 
 .roadmap-head-core
@@ -19,7 +20,7 @@
     text-transform: uppercase;
     font-family: "inter-Bold";
     text-align: center;
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, .4), -2px -2px 4px rgba(255, 255, 255, .4);
+    
 }
 
 .roadmap-desc
@@ -29,15 +30,15 @@
     font-weight: 900;
     color: rgba(200, 200, 200, 0.8);
     text-align: center;
-    text-shadow: 1px 1px 2px rgba(255, 255, 255, .4), -1px -1px 2px rgba(255, 255, 255, .4);
+    
 }
 
 .roadmap-content-core
 {
-    height: 40%;
+    height: 50%;
     width: 80%;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 25px
 }
 
@@ -57,7 +58,7 @@
     font-family: "inter-Bold";
     text-align: start;
     font-style: italic;
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, .4), -2px -2px 4px rgba(255, 255, 255, .4);
+    
 }
 
 .roadmap-content-desc
@@ -68,5 +69,23 @@
     font-weight: 500;
     text-align: start;
     color: rgba(200, 200, 200, 0.8);
-    text-shadow: 1px 1px 2px rgba(255, 255, 255, .4), -1px -1px 2px rgba(255, 255, 255, .4);
+    
+}
+
+.roadmap-badges-grey
+{
+    position: absolute;
+    height: 70%;
+    top: -50%;
+    left: -10%;
+    transform: rotate(-20deg);
+    width: 30%;
+}
+
+.roadmap-badges-img
+{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    object-fit: none;
 }

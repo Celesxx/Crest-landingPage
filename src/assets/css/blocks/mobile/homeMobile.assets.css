@@ -3,7 +3,7 @@
     .home-body 
     { 
         flex-direction: column !important; 
-        justify-content: space-around;
+        justify-content: space-evenly;
         gap: 1em;
     }
     .home-body-base
@@ -17,6 +17,7 @@
     }
     .home-logo-core 
     { 
+        padding: 0;
         justify-content: center;
         height: 20%;
     }
@@ -62,6 +63,7 @@
     }
     .home-logo-core 
     { 
+        padding: 0;
         justify-content: center;
         height: 20%;
     }

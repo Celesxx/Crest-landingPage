@@ -22,7 +22,7 @@
     font-weight: 900;
     text-align: center;
     font-family: "inter-Bold";
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, .4), -2px -2px 4px rgba(255, 255, 255, .4);
+    
 }
 
 .badges-desc
@@ -33,7 +33,7 @@
     font-weight: 500;
     text-align: center;
     color: rgba(200, 200, 200, 0.8);
-    text-shadow: 1px 1px 2px rgba(255, 255, 255, .4), -1px -1px 2px rgba(255, 255, 255, .4);
+    
 }
 
 .badges-cards-core
@@ -55,21 +55,21 @@
 .badges-card-title
 {
     margin: 0;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 900;
     text-transform: uppercase;
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, .4), -2px -2px 4px rgba(255, 255, 255, .4);
+    
 }
 
 .badges-card-desc
 {
     width: 60%;
     margin: 0;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     text-align: center;
     color: rgba(200, 200, 200, 0.8);
-    text-shadow: 1px 1px 2px rgba(255, 255, 255, .4), -1px -1px 2px rgba(255, 255, 255, .4);
+    
 }
 
 .badges-video

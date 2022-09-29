@@ -8,6 +8,7 @@ import Celes from "assets/img/celes.jpg"
 import Ender from "assets/img/ender.png"
 import Ocio from "assets/img/ocio.png"
 import Numa from "assets/img/numa.png"
+import RubyGrey from "assets/img/ruby-grey.png"
 
 class Roadmap extends React.Component 
 {
@@ -30,9 +31,9 @@ class Roadmap extends React.Component
                 </div>
 
                 <div className="team-content flex column">
-                    <img className="team-content-img" src={Celes} alt={Celes} />
-                    <h2 className="team-content-title"><span className="text-pink">Celes</span></h2>
-                    <p className="team-content-desc">Full Stack developper</p>
+                    <img className="team-content-img" src={Numa} alt={Numa} />
+                    <h2 className="team-content-title"><span className="text-pink">Numa</span></h2>
+                    <p className="team-content-desc">Art direction</p>
                 </div>
 
                 <div className="team-content flex column">
@@ -48,12 +49,16 @@ class Roadmap extends React.Component
                 </div>
 
                 <div className="team-content flex column">
-                    <img className="team-content-img" src={Numa} alt={Numa} />
-                    <h2 className="team-content-title"><span className="text-pink">Numa</span></h2>
-                    <p className="team-content-desc">Art direction</p>
+                    <img className="team-content-img" src={Celes} alt={Celes} />
+                    <h2 className="team-content-title"><span className="text-pink">Celes</span></h2>
+                    <p className="team-content-desc">Full Stack developper</p>
                 </div>
 
             </div>
+
+            <div className="team-badges-grey">
+                <img className="team-badges-img" src={RubyGrey} alt={RubyGrey} />  
+            </div>    
 
         </div>
       );

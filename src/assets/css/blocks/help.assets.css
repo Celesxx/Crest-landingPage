@@ -14,7 +14,7 @@
     text-transform: uppercase;
     font-family: "inter-Bold";
     text-align: center;
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, .4), -2px -2px 4px rgba(255, 255, 255, .4);
+    
 }
 
 .help-desc
@@ -25,7 +25,6 @@
     text-align: start;
     color: rgba(200, 200, 200, 0.8);
     text-align: center;
-    text-shadow: 1px 1px 4px rgba(255, 255, 255, .4), -1px -1px 4px rgba(255, 255, 255, .4);
 }
 
 .help-content-core
@@ -58,7 +57,7 @@
     height: 100%;
     width: 100%;
     border-radius: 22px;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 900;
     text-align: center;
     margin: 0;
@@ -68,7 +67,7 @@
     background-position: 0 0, 0 100%;
     background-repeat: no-repeat;
     border-radius: 22px;
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, .4), -2px -2px 4px rgba(255, 255, 255, .4);
+    
 }
 
 .help-content-title-core-end { margin-right: calc(20% - 30px);}

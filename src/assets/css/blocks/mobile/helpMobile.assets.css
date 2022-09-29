@@ -1,10 +1,11 @@
 @media only screen and (max-width: 660px) 
 {
+    .help-content { width: 70%;}
     .help-head-core{ width: 90%; }
     .help-title { font-size: 30px; }
     .help-desc 
     { 
-        font-size: 18px;
+        font-size: 16px;
         width: 80%;
     }
     
@@ -13,24 +14,86 @@
         font-size: 13px; 
         height: 100%;
     }
-    .help-content-border-p1 { width: 50%; }
-    .help-content-border-p2 { width: 50%; }
-    .help-content-border-p3 { width: 50%; }
+    .help-content-border-p1 
+    { 
+        width: 50%;
+        border-top: 3px solid rgb(63, 232, 207);
+        border-right: 3px solid rgb(63, 232, 207); 
+    }
+    .help-content-border-p2 
+    { 
+        width: 50%; 
+        border-top: 3px solid rgb(108, 216, 252);
+        border-left: 3px solid rgb(108, 216, 252);
+    }
+    .help-content-border-p3 
+    { 
+        width: 50%; 
+        border-top: 3px solid rgb(60, 163, 253);
+        border-right: 3px solid rgb(60, 163, 253);
+    }
+    .help-content-border-p4 
+    { 
+        border-top: 5px solid rgb(55, 85, 252);
+        border-left: 5px solid rgb(55, 85, 252);
+    }
     .help-content-p1 { margin: 2em 6em 0 0;}
     .help-content-title-core-end { margin-right: calc(50% - 30px); }
+    .help-content-bullet
+    {
+        height: 20px;
+        width: 20px;
+    }
+    .help-border-p1
+    {
+        background-size: 100% 2px;
+        border-right: 3px solid rgba(63, 232, 207, 0.8);
+        border-left: 3px solid rgb(108, 216, 252, 0.8);
+        background-image: linear-gradient(90deg, rgb(108, 216, 252), rgb(63, 232, 207)), linear-gradient(90deg, rgb(108, 216, 252), rgb(63, 232, 207));
+    }
+    .help-border-p2
+    {
+        background-size: 100% 2px;
+        border-right: 3px solid rgb(60, 163, 253, 0.8);
+        border-left: 3px solid rgba(63, 232, 207, 0.8);
+        background-image: linear-gradient(90deg, rgb(63, 232, 207), rgb(60, 163, 253)), linear-gradient(90deg, rgb(63, 232, 207), rgb(60, 163, 253));
+    }
+
+    .help-border-p3
+    {
+        background-size: 100% 2px;
+        border-right: 3px solid rgba(55, 85, 252, 0.8);
+        border-left: 3px solid rgb(60, 163, 253, 0.8);
+        background-image: linear-gradient(90deg, rgb(60, 163, 253), rgb(55, 85, 252)), linear-gradient(90deg, rgb(60, 163, 253), rgb(55, 85, 252));
+    }
+
+    .help-border-p4
+    {
+        background-size: 100% 2px;
+        border-right: 3px solid rgba(157, 55, 252, 0.8);
+        border-left: 3px solid rgb(55, 85, 252, 0.8);
+        background-image: linear-gradient(90deg, rgb(55, 85, 252), rgb(157, 55, 252)), linear-gradient(90deg, rgb(55, 85, 252), rgb(157, 55, 252));
+    }
+
+    .help-border-p5
+    {
+        background-size: 100% 2px;
+        border-right: 3px solid rgba(222, 45, 242, 0.8);
+        border-left: 3px solid rgb(157, 55, 252, 0.8);
+        background-image: linear-gradient(90deg, rgb(157, 55, 252), rgb(222, 45, 242)), linear-gradient(90deg, rgb(157, 55, 252), rgb(222, 45, 242));
+    }
 }
 
 @media only screen and (max-width: 1250px) and (min-width: 661px) 
 {
+    .help-content { width: 60%;}
     .help-head-core{ width: 90%; }
     .help-title { font-size: 30px; }
     .help-desc { font-size: 18px; }
-    .help-title-right { font-size: 20px; }
-    .help-title-left { font-size: 20px; }
     .help-content-title 
     { 
-        font-size: 20px; 
-        height: 20%;
+        font-size: 18px; 
+        height: 100%;
     }
     .help-content-border-p1 { width: 65%; }
     .help-content-border-p2 { width: 35%; }

@@ -39,11 +39,10 @@ class Navbar extends React.Component
           </label>
 
           <ul className="navbar-mobile">
-              <li><a className="navbar-mobile-item" href="#">Home</a></li>
-              <li><a className="navbar-mobile-item" href="#">About</a></li>
-              <li><a className="navbar-mobile-item" href="#">Team</a></li>
-              <li><a className="navbar-mobile-item" href="#">Contact</a></li>
-              <li><a className="navbar-mobile-item" href="#">Twitter</a></li>
+              <li><a className="navbar-mobile-item" href="#home">Home</a></li>
+              <li><a className="navbar-mobile-item" href="https://discord.com/invite/mUHGNqN8Vj">Community</a></li>
+              <li><a className="navbar-mobile-item" href="https://medium.com/@playCrest">Doc</a></li>
+              <li><a className="navbar-mobile-item" href="https://twitter.com/playCrest">Twitter</a></li>
           </ul>
 
             

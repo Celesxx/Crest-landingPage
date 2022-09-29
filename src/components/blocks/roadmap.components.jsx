@@ -3,6 +3,7 @@ import 'assets/css/pages/index.assets.css';
 import 'assets/css/blocks/roadmap.assets.css';
 import 'assets/css/blocks/mobile/roadmapMobile.assets.css';
 import React from "react";
+import AmethystGrey from "assets/img/amethyst-grey.png"
 
 class Roadmap extends React.Component 
 {
@@ -34,6 +35,10 @@ class Roadmap extends React.Component
                 </div>
 
             </div>
+
+            <div className="roadmap-badges-grey">
+                <img className="roadmap-badges-img" src={AmethystGrey} alt={AmethystGrey} />  
+            </div>  
 
         </div>
       );
