@@ -27,14 +27,43 @@ class Index extends React.Component
       this.state = 
       {
         width: window.innerWidth,
-      };
+        isMobile: false
 
+      };
+      this.handleWindowSizeChange = this.handleWindowSizeChange.bind(this)
   }
 
-  UNSAFE_componentWillMount() { window.addEventListener('resize', this.handleWindowSizeChange); }
+  UNSAFE_componentWillMount() 
+  { 
+    window.addEventListener('resize', this.handleWindowSizeChange);
+    this.state.width = document.documentElement.clientWidth
+    let isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if (isMobile && this.state.width <= 1500) 
+    {
+      this.state.isMobile = true
+      const root = document.getElementById('root');
+      if (window.matchMedia("(orientation: landscape)").matches) root.style["height"] = "100vw"
+      else root.style["height"] = "100vh"
+    }
+    this.forceUpdate()
+
+    
+  }
   componentWillUnmount() { window.removeEventListener('resize', this.handleWindowSizeChange); }
-  
-  handleWindowSizeChange = () => { this.state.width = window.innerWidth };
+  handleWindowSizeChange(event) 
+  { 
+    this.state.width = document.documentElement.clientWidth
+    let isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if (isMobile && this.state.width <= 1500) 
+    {
+      this.state.isMobile = true
+      const root = document.getElementById('root');
+      if (window.matchMedia("(orientation: landscape)").matches) root.style["height"] = "100vw"
+      else root.style["height"] = "100vh"
+    }
+    else this.state.isMobile = false
+    this.forceUpdate()
+  }
 
   render()
     {
@@ -42,7 +71,7 @@ class Index extends React.Component
       return(
         <div className="home p1">
 
-          { isMobile != true ? <Navbar/> : <NavbarMobile/> }
+          { this.state.isMobile != true ? <Navbar/> : <NavbarMobile/> }
 
           <div className="home-body flex column">
 
@@ -57,7 +86,7 @@ class Index extends React.Component
               </div>
 
               <div className="home-logo-icon flex row center">
-                <video playsinline className="swap-video" autoPlay muted loop>
+                <video playsInline className="swap-video" autoPlay muted loop>
                   <source src={Logo} type="video/mp4" />
                 </video>
               </div>

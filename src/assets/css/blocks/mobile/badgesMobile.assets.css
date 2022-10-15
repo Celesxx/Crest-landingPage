@@ -1,4 +1,4 @@
-@media only screen and (max-width: 660px) 
+@media only screen and (max-width: 660px), only screen and (max-height: 660px) and (orientation: landscape) 
 {
     .p2 { justify-content: space-evenly;}
     .badges-head { width: 100%; }

@@ -44,7 +44,7 @@ class Cards extends React.Component
                     <div className="badges-card flex column center">
                         <h1 className="badges-card-title">Amethyst</h1>
                         <p className="badges-card-desc">A stone filled with one of the four primordial elements</p>
-                        <video playsinline className="badges-video" autoPlay muted loop>
+                        <video playsInline className="badges-video" autoPlay muted loop>
                             <source src={Amethyst} type="video/mp4" />
                         </video>
                     </div>
@@ -53,7 +53,7 @@ class Cards extends React.Component
                     <div className="badges-card flex column center badges-middle">
                         <h1 className="badges-card-title">Ruby</h1>
                         <p className="badges-card-desc">A stone filled of the blood of the ancients ods gods</p>
-                        <video playsinline className="badges-video" autoPlay muted loop>
+                        <video playsInline className="badges-video" autoPlay muted loop>
                             <source src={Ruby} type="video/mp4" />
                         </video>
                     </div>
@@ -62,7 +62,7 @@ class Cards extends React.Component
                     <div className="badges-card flex column center">
                         <h1 className="badges-card-title">Amber</h1>
                         <p className="badges-card-desc">A stone containing the light of a dying sun</p>
-                        <video playsinline className="badges-video" autoPlay muted loop>
+                        <video playsInline className="badges-video" autoPlay muted loop>
                             <source src={Amber} type="video/mp4" />
                         </video>
                     </div>  

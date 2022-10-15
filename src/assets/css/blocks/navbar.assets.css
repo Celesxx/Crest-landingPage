@@ -37,7 +37,7 @@
 {
   width: 35%;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   font-size: 22px;
   /* gap: 50px; */
 }
@@ -73,7 +73,7 @@
 .navbar-button 
 { 
   height: 100%;
-  width: 30%; 
+  width: 25%; 
   justify-content: center;
   align-items: center;
 }

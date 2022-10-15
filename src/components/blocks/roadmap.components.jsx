@@ -13,14 +13,14 @@ class Roadmap extends React.Component
         <div className="home roadmap-core flex column center">
           
             <div className="roadmap-head-core flex column center">
-                <h1 className="roadmap-title">{`Roadmap & our vision`}</h1>
+                <h1 className="roadmap-title">{`Our vision`}</h1>
                 <p className="roadmap-desc">Here is a list of improvements we are looking on non stop</p>
             </div>
 
             <div className="roadmap-content-core flex column center">
 
                 <div className="roadmap-content flex column">
-                    <h2 className="roadmap-content-title">Lore developpement</h2>
+                    <h2 className="roadmap-content-title">Lore development</h2>
                     <p className="roadmap-content-desc">We want to create a <span className="text-pink">real story</span> around our crystals to make them <span className="text-pink">truly unique</span> ! A story that we will develop little by little with our weekly updates and all the features we will work on in the future</p>
                 </div>
 

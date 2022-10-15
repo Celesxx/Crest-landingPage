@@ -1,4 +1,4 @@
-@media only screen and (max-width: 660px) 
+@media only screen and (max-width: 660px), only screen and (max-height: 660px) and (orientation: landscape) 
 {
     .roadmap-core { justify-content: center;}
     .roadmap-head-core{ width: 90%; }
