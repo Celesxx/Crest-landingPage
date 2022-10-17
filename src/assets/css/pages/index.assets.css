@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 #root
 {
   height: 100vh;
@@ -35,8 +42,11 @@
   height: 411.07px;
   left: 326.63px;
   top: 351.84px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(24, 75, 255, 0)), to(#174AFF));
+  background: -o-linear-gradient(top, rgba(24, 75, 255, 0) 0%, #174AFF 100%);
   background: linear-gradient(180deg, rgba(24, 75, 255, 0) 0%, #174AFF 100%);
-  filter: blur(200px);
+  -webkit-filter: blur(200px);
+          filter: blur(200px);
 }
 
 .background-texture-p1
@@ -47,7 +57,8 @@
   left: 73px;
   top: -38px;
   background: rgba(24, 75, 255, 0.4);
-  filter: blur(200px);
+  -webkit-filter: blur(200px);
+          filter: blur(200px);
 }
 
 .background-circle-p1
@@ -57,8 +68,11 @@
   height: 603px;
   left: 170px;
   top: 73.14px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 194, 255, 0)), to(#FF29C3));
+  background: -o-linear-gradient(top, rgba(0, 194, 255, 0) 0%, #FF29C3 100%);
   background: linear-gradient(180deg, rgba(0, 194, 255, 0) 0%, #FF29C3 100%);
-  filter: blur(200px);
+  -webkit-filter: blur(200px);
+          filter: blur(200px);
 }
 
 
@@ -69,7 +83,9 @@
   height: 856.75px;
   right: 50%;
   bottom: -50%;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
+  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+      -ms-transform: matrix(-1, 0, 0, 1, 0, 0);
+          transform: matrix(-1, 0, 0, 1, 0, 0);
   z-index: 100;
 
 }
@@ -82,9 +98,16 @@
   top: 14.93%;
   bottom: 38.66%;
 
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(24, 255, 158, 0)), to(#17FFE3));
+
+  background: -o-linear-gradient(top, rgba(24, 255, 158, 0) 0%, #17FFE3 100%);
+
   background: linear-gradient(180deg, rgba(24, 255, 158, 0) 0%, #17FFE3 100%);
-  filter: blur(200px);
-  transform: matrix(-1, 0, 0, 1, 0, 0);
+  -webkit-filter: blur(200px);
+          filter: blur(200px);
+  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+      -ms-transform: matrix(-1, 0, 0, 1, 0, 0);
+          transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .background-texture-p2
@@ -95,7 +118,9 @@
   bottom: -4.78%;
   mix-blend-mode: overlay;
   opacity: 0.7;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
+  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+      -ms-transform: matrix(-1, 0, 0, 1, 0, 0);
+          transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .background-circle-p2
@@ -105,9 +130,14 @@
   right: -22.32%;
   top: -16.54%;
   bottom: 48.45%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#173B80), to(#11573E));
+  background: -o-linear-gradient(top, #173B80 0%, #11573E 100%);
   background: linear-gradient(180deg, #173B80 0%, #11573E 100%);
-  filter: blur(200px);
-  transform: matrix(-1, 0, 0, 1, 0, 0);
+  -webkit-filter: blur(200px);
+          filter: blur(200px);
+  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+      -ms-transform: matrix(-1, 0, 0, 1, 0, 0);
+          transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 
@@ -123,7 +153,9 @@
 {
   border: 1px solid rgba(125, 125, 125, 0.6);
   border-radius: 50%;
-  transform: rotate(14.21deg);
+  -webkit-transform: rotate(14.21deg);
+      -ms-transform: rotate(14.21deg);
+          transform: rotate(14.21deg);
   margin-right: 8%;
   margin-bottom: 5%;
 }
@@ -172,8 +204,11 @@
   position: absolute;
   width: 100%;
   height: 80%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(24, 75, 255, 0)), to(#174AFF));
+  background: -o-linear-gradient(top, rgba(24, 75, 255, 0) 0%, #174AFF 100%);
   background: linear-gradient(180deg, rgba(24, 75, 255, 0) 0%, #174AFF 100%);
-  filter: blur(200px);
+  -webkit-filter: blur(200px);
+          filter: blur(200px);
 }
 
 .badges-texture
@@ -182,7 +217,8 @@
   width: 100%;
   height: 90%;
   background: rgb(160 62 165);
-  filter: blur(200px);
+  -webkit-filter: blur(200px);
+          filter: blur(200px);
 }
 
 .badges-circle
@@ -190,6 +226,9 @@
   position: absolute;
   width: 100%;
   height: 80%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 194, 255, 0)), to(#FF29C3));
+  background: -o-linear-gradient(top, rgba(0, 194, 255, 0) 0%, #FF29C3 100%);
   background: linear-gradient(180deg, rgba(0, 194, 255, 0) 0%, #FF29C3 100%);
-  filter: blur(200px);
+  -webkit-filter: blur(200px);
+          filter: blur(200px);
 }

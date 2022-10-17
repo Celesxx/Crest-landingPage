@@ -1,6 +1,13 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @media only screen and (max-width: 660px), only screen and (max-height: 660px) and (orientation: landscape) 
 {
-    .roadmap-core { justify-content: center;}
+    .roadmap-core { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center;}
     .roadmap-head-core{ width: 90%; }
     .roadmap-title { font-size: 25px; }
     .roadmap-desc { font-size: 16px; }
@@ -8,7 +15,9 @@
     .roadmap-content-core 
     { 
         height: 60%;
-        justify-content: space-evenly;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
     }
     .roadmap-content-title 
     { 
@@ -23,12 +32,12 @@
         text-align: center;
     }
     .roadmap-badges-grey { width: 50%;}
-    .roadmap-badges-img { object-fit: cover;}
+    .roadmap-badges-img { -o-object-fit: cover; object-fit: cover;}
 }
 
 @media only screen and (max-width: 1250px) and (min-width: 661px) 
 {
-    .roadmap-core { justify-content: space-around;}
+    .roadmap-core { -ms-flex-pack: distribute; justify-content: space-around;}
     .roadmap-head-core{ width: 90%; }
     .roadmap-title { font-size: 30px; }
     .roadmap-desc { font-size: 18px; }
@@ -40,7 +49,7 @@
         width: 100%;
     }
     .about-badges-grey { width: 60%;}
-    .about-badges-img { object-fit: cover;}
+    .about-badges-img { -o-object-fit: cover; object-fit: cover;}
     
 }
 
@@ -49,7 +58,9 @@
     .roadmap-content-core
     {
         height: 60%;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
         width: 60%;
     }
     .roadmap-content { width: 60%; }

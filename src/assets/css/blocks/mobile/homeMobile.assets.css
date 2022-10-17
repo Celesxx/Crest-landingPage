@@ -1,14 +1,29 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @media only screen and (max-width: 660px), only screen and (max-height: 660px) and (orientation: landscape) 
 {
     .home-body 
     { 
-        flex-direction: column !important; 
-        justify-content: space-evenly;
+        -webkit-box-orient: vertical !important; 
+        -webkit-box-direction: normal !important; 
+            -ms-flex-direction: column !important; 
+                flex-direction: column !important; 
+        -webkit-box-pack: space-evenly; 
+            -ms-flex-pack: space-evenly; 
+                justify-content: space-evenly;
         gap: 1em;
     }
     .home-body-base
     {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .home-base-core 
     { 
@@ -18,7 +33,9 @@
     .home-logo-core 
     { 
         padding: 0;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         height: 20%;
     }
 
@@ -26,7 +43,8 @@
     {
         height: auto;
         width: 40%;
-        object-fit: cover;
+        -o-object-fit: cover;
+           object-fit: cover;
     }
 
     .home-title-core { height: 35%; }
@@ -50,8 +68,13 @@
 {
     .home-body 
     { 
-        flex-direction: column !important; 
-        justify-content: center;
+        -webkit-box-orient: vertical !important; 
+        -webkit-box-direction: normal !important; 
+            -ms-flex-direction: column !important; 
+                flex-direction: column !important; 
+        -webkit-box-pack: center; 
+            -ms-flex-pack: center; 
+                justify-content: center;
         gap: 1em;
     }
     
@@ -59,12 +82,16 @@
     { 
         width: 100%; 
         height: 35%;
-        justify-content: space-evenly;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
     }
     .home-logo-core 
     { 
         padding: 0;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         height: 20%;
     }
 
@@ -72,7 +99,8 @@
     {
         height: 65%;
         width: auto;
-        object-fit: cover;
+        -o-object-fit: cover;
+           object-fit: cover;
     }
 
     .home-title-core { height: 35%; }

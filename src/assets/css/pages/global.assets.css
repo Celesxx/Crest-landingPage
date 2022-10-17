@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @font-face {
   font-family: "inter-Regular";
   src: local("inter-Regular"),
@@ -18,12 +25,12 @@ body
 }
 
 
-.flex { display: flex; }
-.row { flex-direction: row; }
-.column { flex-direction: column; }
-.center { justify-content: center; align-items: center; }
-.right { justify-content: flex-end; }
-.left { justify-content: flex-start; }
+.flex { display: -webkit-box; display: -ms-flexbox; display: flex; }
+.row { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
+.column { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+.center { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.right { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
+.left { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
 .h1 { margin: 0; }
 .text-pink { color: #F581FF !important; }
 
@@ -34,4 +41,4 @@ button
   border: 0;
 }
 
-.button:hover{ transform: scale(0.95, 0.95); }
+.button:hover{ -webkit-transform: scale(0.95, 0.95); -ms-transform: scale(0.95, 0.95); transform: scale(0.95, 0.95); }

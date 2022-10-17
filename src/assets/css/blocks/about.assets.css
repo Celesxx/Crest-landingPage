@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .home-about
 {
     overflow: initial;
@@ -7,14 +14,18 @@
 {
     height: 30%;
     width: 90%;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .about-card-head
 {
     height: 100%;
     width: 40%;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .about-card-title
@@ -49,12 +60,13 @@
 {
     height: 50%;
     width: 50%;
-    object-fit: contain;
+    -o-object-fit: contain;
+       object-fit: contain;
 }
 
 .about-end{ text-align: end !important;}
-.about-card-head-end { align-items: flex-end;}
-.about-card-head-start { align-items: flex-start;}
+.about-card-head-end { -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end;}
+.about-card-head-start { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start;}
 
 .about-badges-grey
 {
@@ -62,7 +74,9 @@
     height: 70%;
     top: 0;
     right: -10%;
-    transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+        -ms-transform: rotate(20deg);
+            transform: rotate(20deg);
     width: 30%;
 }
 
@@ -71,5 +85,6 @@
     position: relative;
     height: 100%;
     width: 100%;
-    object-fit: none;
+    -o-object-fit: none;
+       object-fit: none;
 }

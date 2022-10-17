@@ -3,9 +3,9 @@ import 'assets/css/pages/index.assets.css';
 import 'assets/css/blocks/social.assets.css';
 import 'assets/css/blocks/mobile/socialMobile.assets.css';
 import React from "react";
-import Twitter from "assets/img/twitter.png"
-import Medium from "assets/img/medium.png"
-import Discord from "assets/img/discord.png"
+import Twitter from "assets/img/twitter.svg"
+import Medium from "assets/img/medium.svg"
+import Discord from "assets/img/discord.svg"
 
 class Social extends React.Component 
 {

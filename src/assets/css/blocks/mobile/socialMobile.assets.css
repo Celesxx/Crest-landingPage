@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @media only screen and (max-width: 660px), only screen and (max-height: 660px) and (orientation: landscape) 
 {
     .social-content-head { width: 90%; }

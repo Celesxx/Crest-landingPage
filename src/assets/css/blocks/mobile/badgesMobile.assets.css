@@ -1,6 +1,13 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @media only screen and (max-width: 660px), only screen and (max-height: 660px) and (orientation: landscape) 
 {
-    .p2 { justify-content: space-evenly;}
+    .p2 { -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly;}
     .badges-head { width: 100%; }
     .badges-title { font-size: 30px; }
     .badges-desc { font-size: 16px}
@@ -8,30 +15,42 @@
     { 
         height: 40%;
         width: 40%;
-        flex: none;
+        -webkit-box-flex: 0;
+            -ms-flex: none;
+                flex: none;
         gap: 0;
     }
     .badges-head-core { height: 15%; }
     .badges-cards-core
     {
-        flex-direction: row;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
         width: 88%;
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         gap: 2em;
-        flex-wrap: wrap-reverse;
+        -ms-flex-wrap: wrap-reverse;
+            flex-wrap: wrap-reverse;
     }
     .badges-card-title 
     { 
         font-size: 20px;
-        order: 2;
+        -webkit-box-ordinal-group: 3;
+            -ms-flex-order: 2;
+                order: 2;
     }
     .badges-card-desc
     {
         font-size: 16px;
         width: 100%;
-        order: 3;
+        -webkit-box-ordinal-group: 4;
+            -ms-flex-order: 3;
+                order: 3;
     }
-    .badges-middle { transform: translatey(0) }
+    .badges-middle { -webkit-transform: translatey(0); -ms-transform: translatey(0); transform: translatey(0) }
     .badges-video { height: 60%; }
 }
 

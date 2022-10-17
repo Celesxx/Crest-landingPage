@@ -1,6 +1,15 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .home-badges
 {
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .badges-head-core
 {
@@ -40,11 +49,15 @@
 {
     height: 65%;
     width: 80%;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
-.badges-cards-core > * { flex: 1; }
+.badges-cards-core > * { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; }
 
 .badges-card
 {
@@ -78,12 +91,15 @@
     z-index: 5;
     height: 40%;
     width: auto;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     border-radius: 24px;
 }
 
 
 .badges-middle
 {
-    transform: translatey(-10%);
+    -webkit-transform: translatey(-10%);
+        -ms-transform: translatey(-10%);
+            transform: translatey(-10%);
 }

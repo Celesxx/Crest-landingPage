@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .help-head-core
 {
     height: 20%;
@@ -49,7 +56,9 @@
 {
     width: 40%;
     height: 40%;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .help-content-title
@@ -87,6 +96,8 @@
 {
     border-right: 5px solid rgba(63, 232, 207, 0.8);
     border-left: 5px solid rgb(108, 216, 252, 0.8);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgb(108, 216, 252)), to(rgb(63, 232, 207))), -webkit-gradient(linear, left top, right top, from(rgb(108, 216, 252)), to(rgb(63, 232, 207)));
+    background-image: -o-linear-gradient(left, rgb(108, 216, 252), rgb(63, 232, 207)), -o-linear-gradient(left, rgb(108, 216, 252), rgb(63, 232, 207));
     background-image: linear-gradient(90deg, rgb(108, 216, 252), rgb(63, 232, 207)), linear-gradient(90deg, rgb(108, 216, 252), rgb(63, 232, 207));
 }
 
@@ -94,6 +105,8 @@
 {
     border-right: 5px solid rgb(60, 163, 253, 0.8);
     border-left: 5px solid rgba(63, 232, 207, 0.8);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgb(63, 232, 207)), to(rgb(60, 163, 253))), -webkit-gradient(linear, left top, right top, from(rgb(63, 232, 207)), to(rgb(60, 163, 253)));
+    background-image: -o-linear-gradient(left, rgb(63, 232, 207), rgb(60, 163, 253)), -o-linear-gradient(left, rgb(63, 232, 207), rgb(60, 163, 253));
     background-image: linear-gradient(90deg, rgb(63, 232, 207), rgb(60, 163, 253)), linear-gradient(90deg, rgb(63, 232, 207), rgb(60, 163, 253));
 }
 
@@ -101,6 +114,8 @@
 {
     border-right: 5px solid rgba(55, 85, 252, 0.8);
     border-left: 5px solid rgb(60, 163, 253, 0.8);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgb(60, 163, 253)), to(rgb(55, 85, 252))), -webkit-gradient(linear, left top, right top, from(rgb(60, 163, 253)), to(rgb(55, 85, 252)));
+    background-image: -o-linear-gradient(left, rgb(60, 163, 253), rgb(55, 85, 252)), -o-linear-gradient(left, rgb(60, 163, 253), rgb(55, 85, 252));
     background-image: linear-gradient(90deg, rgb(60, 163, 253), rgb(55, 85, 252)), linear-gradient(90deg, rgb(60, 163, 253), rgb(55, 85, 252));
 } 
 
@@ -108,6 +123,8 @@
 {
     border-right: 5px solid rgba(157, 55, 252, 0.8);
     border-left: 5px solid rgb(55, 85, 252, 0.8);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgb(55, 85, 252)), to(rgb(157, 55, 252))), -webkit-gradient(linear, left top, right top, from(rgb(55, 85, 252)), to(rgb(157, 55, 252)));
+    background-image: -o-linear-gradient(left, rgb(55, 85, 252), rgb(157, 55, 252)), -o-linear-gradient(left, rgb(55, 85, 252), rgb(157, 55, 252));
     background-image: linear-gradient(90deg, rgb(55, 85, 252), rgb(157, 55, 252)), linear-gradient(90deg, rgb(55, 85, 252), rgb(157, 55, 252));
 }
 
@@ -115,20 +132,24 @@
 {
     border-right: 5px solid rgba(222, 45, 242, 0.8);
     border-left: 5px solid rgb(157, 55, 252, 0.8);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgb(157, 55, 252)), to(rgb(222, 45, 242))), -webkit-gradient(linear, left top, right top, from(rgb(157, 55, 252)), to(rgb(222, 45, 242)));
+    background-image: -o-linear-gradient(left, rgb(157, 55, 252), rgb(222, 45, 242)), -o-linear-gradient(left, rgb(157, 55, 252), rgb(222, 45, 242));
     background-image: linear-gradient(90deg, rgb(157, 55, 252), rgb(222, 45, 242)), linear-gradient(90deg, rgb(157, 55, 252), rgb(222, 45, 242));
 }
 
-.bullet-p1 { background: linear-gradient(120deg, rgb(108, 216, 252), rgb(63, 232, 207)) }
-.bullet-p2 { background: linear-gradient(120deg, rgb(63, 232, 207), rgb(60, 163, 253)) }
-.bullet-p3 { background: linear-gradient(120deg, rgb(60, 163, 253), rgb(55, 85, 252)) }
-.bullet-p4 { background: linear-gradient(120deg, rgb(55, 85, 252), rgb(157, 55, 252)) }
+.bullet-p1 { background: -o-linear-gradient(330deg, rgb(108, 216, 252), rgb(63, 232, 207)); background: linear-gradient(120deg, rgb(108, 216, 252), rgb(63, 232, 207)) }
+.bullet-p2 { background: -o-linear-gradient(330deg, rgb(63, 232, 207), rgb(60, 163, 253)); background: linear-gradient(120deg, rgb(63, 232, 207), rgb(60, 163, 253)) }
+.bullet-p3 { background: -o-linear-gradient(330deg, rgb(60, 163, 253), rgb(55, 85, 252)); background: linear-gradient(120deg, rgb(60, 163, 253), rgb(55, 85, 252)) }
+.bullet-p4 { background: -o-linear-gradient(330deg, rgb(55, 85, 252), rgb(157, 55, 252)); background: linear-gradient(120deg, rgb(55, 85, 252), rgb(157, 55, 252)) }
 
 
 .help-content-border
 {
     height: 100%;
     width: calc(60% - 45px);
-    align-items: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
 }
 
 .help-content-border-p1
@@ -140,7 +161,8 @@
     border: 0;
     border-top: 5px solid rgb(63, 232, 207);
     border-right: 5px solid rgb(63, 232, 207);
-    box-shadow:3px -3px 5px -5px white;
+    -webkit-box-shadow:3px -3px 5px -5px white;
+            box-shadow:3px -3px 5px -5px white;
 }
 
 .help-content-border-p2
@@ -150,7 +172,8 @@
     border-top: 5px solid rgb(108, 216, 252);
     border-left: 5px solid rgb(108, 216, 252);
     border-radius: 24px 0 0 0;
-    box-shadow:-3px -3px 5px -5px white;
+    -webkit-box-shadow:-3px -3px 5px -5px white;
+            box-shadow:-3px -3px 5px -5px white;
 }
 
 .help-content-border-p3
@@ -160,7 +183,8 @@
     border-top: 5px solid rgb(60, 163, 253);
     border-right: 5px solid rgb(60, 163, 253);
     border-radius: 0 24px 0 0;
-    box-shadow:3px -3px 5px -5px white;
+    -webkit-box-shadow:3px -3px 5px -5px white;
+            box-shadow:3px -3px 5px -5px white;
 }
 
 .help-content-border-p4
@@ -170,5 +194,6 @@
     border-top: 5px solid rgb(55, 85, 252);
     border-left: 5px solid rgb(55, 85, 252);
     border-radius: 24px 0 0 0;
-    box-shadow:-3px -3px 5px -5px white;
+    -webkit-box-shadow:-3px -3px 5px -5px white;
+            box-shadow:-3px -3px 5px -5px white;
 }

@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @media only screen and (max-width: 660px), only screen and (max-height: 660px) and (orientation: landscape) 
 {
     .help-content { width: 70%;}
@@ -49,6 +56,8 @@
         background-size: 100% 2px;
         border-right: 3px solid rgba(63, 232, 207, 0.8);
         border-left: 3px solid rgb(108, 216, 252, 0.8);
+        background-image: -webkit-gradient(linear, left top, right top, from(rgb(108, 216, 252)), to(rgb(63, 232, 207))), -webkit-gradient(linear, left top, right top, from(rgb(108, 216, 252)), to(rgb(63, 232, 207)));
+        background-image: -o-linear-gradient(left, rgb(108, 216, 252), rgb(63, 232, 207)), -o-linear-gradient(left, rgb(108, 216, 252), rgb(63, 232, 207));
         background-image: linear-gradient(90deg, rgb(108, 216, 252), rgb(63, 232, 207)), linear-gradient(90deg, rgb(108, 216, 252), rgb(63, 232, 207));
     }
     .help-border-p2
@@ -56,6 +65,8 @@
         background-size: 100% 2px;
         border-right: 3px solid rgb(60, 163, 253, 0.8);
         border-left: 3px solid rgba(63, 232, 207, 0.8);
+        background-image: -webkit-gradient(linear, left top, right top, from(rgb(63, 232, 207)), to(rgb(60, 163, 253))), -webkit-gradient(linear, left top, right top, from(rgb(63, 232, 207)), to(rgb(60, 163, 253)));
+        background-image: -o-linear-gradient(left, rgb(63, 232, 207), rgb(60, 163, 253)), -o-linear-gradient(left, rgb(63, 232, 207), rgb(60, 163, 253));
         background-image: linear-gradient(90deg, rgb(63, 232, 207), rgb(60, 163, 253)), linear-gradient(90deg, rgb(63, 232, 207), rgb(60, 163, 253));
     }
 
@@ -64,6 +75,8 @@
         background-size: 100% 2px;
         border-right: 3px solid rgba(55, 85, 252, 0.8);
         border-left: 3px solid rgb(60, 163, 253, 0.8);
+        background-image: -webkit-gradient(linear, left top, right top, from(rgb(60, 163, 253)), to(rgb(55, 85, 252))), -webkit-gradient(linear, left top, right top, from(rgb(60, 163, 253)), to(rgb(55, 85, 252)));
+        background-image: -o-linear-gradient(left, rgb(60, 163, 253), rgb(55, 85, 252)), -o-linear-gradient(left, rgb(60, 163, 253), rgb(55, 85, 252));
         background-image: linear-gradient(90deg, rgb(60, 163, 253), rgb(55, 85, 252)), linear-gradient(90deg, rgb(60, 163, 253), rgb(55, 85, 252));
     }
 
@@ -72,6 +85,8 @@
         background-size: 100% 2px;
         border-right: 3px solid rgba(157, 55, 252, 0.8);
         border-left: 3px solid rgb(55, 85, 252, 0.8);
+        background-image: -webkit-gradient(linear, left top, right top, from(rgb(55, 85, 252)), to(rgb(157, 55, 252))), -webkit-gradient(linear, left top, right top, from(rgb(55, 85, 252)), to(rgb(157, 55, 252)));
+        background-image: -o-linear-gradient(left, rgb(55, 85, 252), rgb(157, 55, 252)), -o-linear-gradient(left, rgb(55, 85, 252), rgb(157, 55, 252));
         background-image: linear-gradient(90deg, rgb(55, 85, 252), rgb(157, 55, 252)), linear-gradient(90deg, rgb(55, 85, 252), rgb(157, 55, 252));
     }
 
@@ -80,6 +95,8 @@
         background-size: 100% 2px;
         border-right: 3px solid rgba(222, 45, 242, 0.8);
         border-left: 3px solid rgb(157, 55, 252, 0.8);
+        background-image: -webkit-gradient(linear, left top, right top, from(rgb(157, 55, 252)), to(rgb(222, 45, 242))), -webkit-gradient(linear, left top, right top, from(rgb(157, 55, 252)), to(rgb(222, 45, 242)));
+        background-image: -o-linear-gradient(left, rgb(157, 55, 252), rgb(222, 45, 242)), -o-linear-gradient(left, rgb(157, 55, 252), rgb(222, 45, 242));
         background-image: linear-gradient(90deg, rgb(157, 55, 252), rgb(222, 45, 242)), linear-gradient(90deg, rgb(157, 55, 252), rgb(222, 45, 242));
     }
 }

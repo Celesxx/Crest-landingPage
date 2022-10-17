@@ -1,6 +1,13 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @media only screen and (max-width: 660px), only screen and (max-height: 660px) and (orientation: landscape) 
 {
-    .team-core { justify-content: center;}
+    .team-core { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center;}
     .team-head-core{ width: 90%; }
     .team-title { font-size: 30px; }
     .team-desc { font-size: 16px; }
@@ -23,7 +30,7 @@
     }
 
     .team-badges-grey { width: 50%;}
-    .team-badges-img { object-fit: cover;}
+    .team-badges-img { -o-object-fit: cover; object-fit: cover;}
 }
 
 @media only screen and (max-width: 1250px) and (min-width: 661px)
@@ -40,7 +47,7 @@
         width: 110px;
     }
     .team-badges-grey { width: 60%;}
-    .team-badges-img { object-fit: cover;}
+    .team-badges-img { -o-object-fit: cover; object-fit: cover;}
 }
 
 

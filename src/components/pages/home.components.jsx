@@ -13,7 +13,7 @@ import Help from "components/blocks/help.components.jsx"
 import Roadmap from "components/blocks/roadmap.components.jsx"
 import Team from "components/blocks/team.components.jsx"
 import Social from "components/blocks/social.components.jsx"
-import LogoName from 'assets/img/crest-name.png'
+import LogoName from 'assets/img/crest-name.svg'
 import Logo from 'assets/img/token-web.mp4'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
@@ -38,7 +38,7 @@ class Index extends React.Component
     window.addEventListener('resize', this.handleWindowSizeChange);
     this.state.width = document.documentElement.clientWidth
     let isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-    if (isMobile && this.state.width <= 1500) 
+    if (isMobile && this.state.width <= 1200) 
     {
       this.state.isMobile = true
       const root = document.getElementById('root');
@@ -54,7 +54,7 @@ class Index extends React.Component
   { 
     this.state.width = document.documentElement.clientWidth
     let isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-    if (isMobile && this.state.width <= 1500) 
+    if (isMobile && this.state.width <= 1200) 
     {
       this.state.isMobile = true
       const root = document.getElementById('root');

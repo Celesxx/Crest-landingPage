@@ -1,6 +1,15 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .roadmap-core
 {
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     overflow: initial;
 }
 
@@ -9,7 +18,9 @@
     height: 15%;
     width: 40%;
     gap: 25px;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .roadmap-title
@@ -37,8 +48,12 @@
 {
     height: 50%;
     width: 80%;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     gap: 25px
 }
 
@@ -78,7 +93,9 @@
     height: 70%;
     top: -50%;
     left: -10%;
-    transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+        -ms-transform: rotate(-20deg);
+            transform: rotate(-20deg);
     width: 30%;
 }
 
@@ -87,5 +104,6 @@
     position: relative;
     height: 100%;
     width: 100%;
-    object-fit: none;
+    -o-object-fit: none;
+       object-fit: none;
 }
