@@ -36,6 +36,27 @@
     position: absolute;
     left: 0;
 }
+
+
+.dapp-button-mobile
+{
+    background: transparent;
+    background-image: -webkit-gradient(linear,left top, right top,from(#ff1a88),to(#0085ff)),-webkit-gradient(linear,left top, right top,from(#ff1a88),to(#0085ff));
+    background-image: -o-linear-gradient(left,#ff1a88,#0085ff),-o-linear-gradient(left,#ff1a88,#0085ff);
+    background-image: linear-gradient(90deg,#ff1a88,#0085ff),linear-gradient(90deg,#ff1a88,#0085ff);
+    background-position: 0 0,0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 2px;
+    border: 0;
+    border-left: 2px solid rgba(255,26,136,.8);
+    border-radius: 10px;
+    border-right: 2px solid #0085ff;
+    font-size: 18px;
+    font-weight: 500;
+    height: 40px;
+    width: 35%;
+    margin-right: 1em;
+}
 #navbar-toggle:checked + .navbar-mobile-label > .navbar-mobile-span { -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); }
 #navbar-toggle:checked + .navbar-mobile-label > .navbar-mobile-span::before 
 {

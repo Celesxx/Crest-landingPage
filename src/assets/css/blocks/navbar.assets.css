@@ -136,6 +136,8 @@
 
 .dapp-button
 {
+  position: relative;
+  z-index: 999;
   background: transparent;
   background-image: -webkit-gradient(linear,left top, right top,from(#ff1a88),to(#0085ff)),-webkit-gradient(linear,left top, right top,from(#ff1a88),to(#0085ff));
   background-image: -o-linear-gradient(left,#ff1a88,#0085ff),-o-linear-gradient(left,#ff1a88,#0085ff);

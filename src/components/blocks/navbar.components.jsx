@@ -25,7 +25,7 @@ class Navbar extends React.Component
               </div>
 
               <div className="navbar-link flex column">
-                  <a href="" className="link" target="_blank" rel="noopener noreferrer" ><p className="link-title">Doc</p></a>
+                  <a href="https://playcrest.gitbook.io/documentation/" className="link" target="_blank" rel="noopener noreferrer" ><p className="link-title">Doc</p></a>
                   <div className="link-bar"></div>
               </div>
 
@@ -42,7 +42,9 @@ class Navbar extends React.Component
 
             <div className="navbar-button flex row">
               <div className="navbar-button-core flex row">
-                <button className="button dapp-button flex row center">Launch dApp</button>
+                <a href="https://testnet.playcrest.xyz" className="link button dapp-button flex row center" target="_blank" rel="noopener noreferrer">
+                  Launch dApp
+                </a>
               </div>
             </div>
 
